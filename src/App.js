@@ -16,6 +16,11 @@ function App() {
                     </li>
                 </ul>
             </nav>
+            <div className="flex justify-center">
+                <img
+                    src={require('../src/assets/rounded-image.png')}
+                    className='w-[320px] h-[320px] rounded-full'/>
+            </div>
             <div className="text-center pt-10">
                 <h2 className="text-5xl py-2 text-teal-600 font-medium">Denis Kalashnikov</h2>
                 <h3 className="text-2xl py-2">React / Native Developer</h3>
@@ -24,12 +29,14 @@ function App() {
                     needs. I can help you with your project.
                     Follow down below to contact with me
                 </p>
-                <div className="flex gap-24 justify-center text-3xl">
+
+                <div className="flex gap-24 justify-center text-3xl text-gray-600 mt-24">
                     <BsTelegram className="cursor-pointer"/>
                     <BsGithub className="cursor-pointer"/>
                     <BsCpu className="cursor-pointer"/>
                 </div>
             </div>
+
         </section>
       </main>
     </div>
